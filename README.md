@@ -19,7 +19,7 @@ To run this project locally, follow these steps:
 Clone the repository:
 
 ```bash
-git clone https://github.com/0zean/chembl-scraper.git
+git clone https://github.com/0zean/Chembl-Compounds-Scraper.git
 ```
 Install the required dependencies:
 ```bash
@@ -31,6 +31,8 @@ Set up and configure Docker for running the remote Selenium instance. Refer to t
 Set up the PostgreSQL database and ensure it is running correctly. Update the database connection settings in the project configuration files accordingly.
 
 # Usage
+Update the `credentials.yml` file to your own PostgreSQL credentials.
+
 Launch the web scraper by running the following command:
 ```bash
 python scrape_compound.py
