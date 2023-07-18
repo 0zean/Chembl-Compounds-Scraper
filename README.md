@@ -7,13 +7,11 @@ Furthermore, microservices have been created using MageAI for various tasks such
 
 To provide users with a visual representation of the compounds, a pipeline has been developed for generating two-dimensional molecular visualizations. This pipeline utilizes RDKit, a cheminformatics library, to create visualizations based on the SMILES string data obtained from the PostgreSQL database. Users can quickly analyze and gain insights into the molecular structure of the compounds.
 
-**Caffeine**:
 
-![alt text](data/molecules/CAFFEINE.png)
+Caffeine                                  |  Metformin
+:----------------------------------------:|:---------------------------:
+![alt text](data/molecules/CAFFEINE.png)  |  ![alt text](data/molecules/METFORMIN.png)
 
-**Metformin**:
-
-![alt text](data/molecules/METFORMIN.png)
 
 # Features
 - Web scraper using Selenium to extract compound data from the Chembl UK website.
