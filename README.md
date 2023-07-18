@@ -9,7 +9,7 @@ To provide users with a visual representation of the compounds, a pipeline has b
 
 
 Caffeine                                  |  Metformin
-:----------------------------------------:|:---------------------------:
+:----------------------------------------:|:-----------------------------------------:
 ![alt text](data/molecules/CAFFEINE.png)  |  ![alt text](data/molecules/METFORMIN.png)
 
 
