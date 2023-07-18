@@ -1,0 +1,4 @@
+selenium
+sqlalchemy
+mage-ai[all]
+rdkit
