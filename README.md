@@ -46,7 +46,11 @@ python visualize_molecule.py
 
 # Acknowledgements
 [<u>Chembl UK</u>](https://www.ebi.ac.uk/chembl/) - Data source for compound information.
+
 [<u>Selenium</u>](https://www.selenium.dev/) - Web scraping framework.
+
 [<u>MageAI</u>](https://www.mage.ai/) - Microservices for data processing.
+
 [<u>RDKit</u>](https://www.rdkit.org/) - Cheminformatics library for molecular visualizations.
+
 [<u>PostgreSQL</u>](https://www.postgresql.org/) - Relational database management system.
