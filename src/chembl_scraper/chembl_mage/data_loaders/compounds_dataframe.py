@@ -21,8 +21,6 @@ def load_data(*args, **kwargs):
     compounds_folder = path + '/data/chembl_compounds/compounds'
     output_file = df_folder + '/combined_data.csv'
 
-    status = None
-
     # check if dataframe exists yet
     if os.path.exists(df_folder) and os.listdir(df_folder):
         existing_df = pd.read_csv(output_file)
@@ -39,8 +37,6 @@ def load_data(*args, **kwargs):
             os.remove(file_path)
         combined_df = pd.concat(dfs)
 
-        status = 'Added new data to database'
-
     else:
         # Get a list of CSV files in compounds folder
         csv_files = [f for f in os.listdir(compounds_folder) if f.endswith('.csv')]
@@ -56,8 +52,6 @@ def load_data(*args, **kwargs):
 
         # Make df folder in case it doesn't exist yet
         os.makedirs(df_folder, exist_ok=True)
-
-        status = 'Created database from data'
 
     # Remove rows with no compound name
     combined_df.dropna(subset=["Name"], inplace=True)
